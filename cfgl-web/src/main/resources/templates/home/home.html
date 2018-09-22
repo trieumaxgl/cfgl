@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<div th:replace="fragments/head :: head"></div>
+	<script th:src="@{/js/jquery.min.js}"></script>
+	<script th:src="@{/js/qrcode.js}"></script>
+	<script th:src="@{/js/JsBarcode.all.min.js}"></script>
+</head>
+<body>
+
+	<!-- Horizontal navigation-->
+	<div th:replace="fragments/hnav :: hnav"></div>
+	<!-- Horizontal navigation-->
+
+	<div th:replace="fragments/items/_typing :: typing-body"></div>
+
+	<div th:replace="fragments/footer :: footer"></div>
+
+<!-- 	<div th:replace="fragments/script :: script-body"></div> -->
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<div th:fragment="footer" style="position: fixed; bottom: 0; width: 100%; z-index: 1000 !important">
+    	<!-- Determine the root context of the application.  -->
+    	<script th:inline="javascript">
+       		var _themeroot = /*[[#{theme.root}]]*/ ''; 
+    	</script>
+
+    	<!-- ////////////////////////////////////////////////////////////////////////////-->
+    	<div class="footer">
+		<div class="wrap">
+			<div class="footer-grid">
+				<h3>Liên hệ :</h3>
+				<p>SDT : 01236547789</p>
+				<p>Địa chỉ :</p>
+				<p>Mail :</p>
+				<p>web : www.cf81.com.vn</p>
+			</div>
+			<div class="footer-grid center-grid">
+				<div class="social-icons">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/facebook.png" title="facebook" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/twitter.png" title="twitter" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/google.png" title="google pluse" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+		<div class="clear"> </div>
+	</div>
+	<div class="copy-right">
+		<div class="top-to-page">
+			<a href="#top" class="scroll"> </a>
+			<div class="clear"> </div>
+		</div>
+		<p> © Copyright &copy; 2018 Coffee 81 - Gia Lai</p>
+	</div>
+	</div>
+</head>
+</html>
